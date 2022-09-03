@@ -22,10 +22,11 @@
 
 The 2nd project what I did with Nodejs, Express & TypeScript.
 
-- ## Node.js
-- ## Express
-- ## Concurrently
-- ## Typescript
+- Node.js
+- Express
+- Concurrently
+- Typescript
+- mongodb
 
 ## Security
 
