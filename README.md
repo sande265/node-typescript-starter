@@ -18,14 +18,14 @@
   />
 </div>
 
-## Don't forget give me a star if you like it 😅😅 😊😊
+# Don't forget give me a star if you like it 😅😅 😊😊
 
 The 2nd project what I did with Nodejs, Express & TypeScript.
 
-- Node.js
-- Express
-- Concurrently
-- Typescript
+- ## Node.js
+- ## Express
+- ## Concurrently
+- ## Typescript
 
 ## Security
 
@@ -41,7 +41,11 @@ then generate public key from private.pem
 openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 ```
 
-Optional Rename the keys with extenstion .key
+## (Optional)
+
+- Rename the keys with extenstion .key
+
+- Move All the files to the root of the app & also change the format of key if its not .key!
 
 ## Environment variables used patter
 
@@ -63,12 +67,13 @@ First, Install API image classification: [Here](https://github.com/iamvucms/Imag
 Edit src/constant/index.ts
 
 ```bash
-git clone https://github.com/sande265/node.git
-cd simplify-leave
-yarn install
+git clone https://github.com/sande265/node-typescript-starter.git
+cd node-typescript-starter
+yarn install || npm install
 ```
 
 ## Installation
+
 ```bash
 npm install -g nodemon
 npm install -g ts-node
