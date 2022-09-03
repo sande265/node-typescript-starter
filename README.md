@@ -48,7 +48,7 @@ openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 
 - Move All the files to the root of the app & also change the format of key if its not .key!
 
-## Environment variables used patter
+## Environment variables use pattern
 
 ```javascript
 PORT=// Your app port here for development
@@ -63,7 +63,7 @@ DB_HOST=// Atlas DB url or your hosted url endpoint
 
 To use the environment variables use dotenv.config() to access the values or else it's undefined!
 
-Use the package manager [YARN] or [NPM] to install [Simplify Leave App].\
+Use the package manager [YARN] or [NPM] to install [App].\
 First, Install API image classification: [Here](https://github.com/iamvucms/ImageClassifyAPI/blob/master/README.md#installation)\
 Edit src/constant/index.ts
 
