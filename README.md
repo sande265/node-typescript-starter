@@ -27,8 +27,6 @@ The 2nd project what I did with Nodejs, Express & TypeScript.
 - Concurrently
 - Typescript
 
-## Installation
-
 ## Security
 
 Generate Private key & Public Key for the app to authenticate using the keys generated to sign the token.
@@ -70,7 +68,7 @@ cd simplify-leave
 yarn install
 ```
 
-## Install Global Requirements
+## Installation
 ```bash
 npm install -g nodemon
 npm install -g ts-node
